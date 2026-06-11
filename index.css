@@ -19,3 +19,8 @@
     --font-button: 600 18px "Inter", sans-serif;
 
 }
+
+main{
+    height: auto;
+    background-color: var(--background-clean);
+}
