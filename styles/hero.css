@@ -1,0 +1,56 @@
+#hero{
+    height: calc(100vh - 60px);
+    background-image: url("../assets/hero_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--background-clean);
+    gap: 15px;
+}
+
+#hero h1{
+    font: var(--title-hero);
+}
+
+#hero p{
+    font: var(--font-subtitle);
+}
+
+#hero .cards {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+#hero .cards .card{
+    padding: 20px;
+    background-color: var(--text-color-secondary);
+    width: 170px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 6px;
+    font: var(--font-text);
+}
+
+#hero button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--destaque-cta);
+    font: var(--font-button);
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+
+#hero button:hover{
+    opacity: 0.9;
+}
