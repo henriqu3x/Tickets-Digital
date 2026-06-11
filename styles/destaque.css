@@ -1,0 +1,90 @@
+#destaque{
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#destaque h2 {
+    font: var(--title-section);
+    padding: 5px;
+    position: relative;
+}
+
+#destaque h2::after{
+    content: '';
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    width: 100px;
+    background-color: var(--background-secondary);
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+#destaque .cards{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#destaque .card{
+    height: 360px;
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid var(--text-color-secondary);
+}
+
+#destaque .card .imagem-partida{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+#destaque .card .card-partida{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#destaque .card .card-partida .box-time{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+#destaque .card .card-partida .box-time img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+#destaque .card p {
+    padding: 0px 40px;
+}
+
+#destaque .card button{
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--destaque-cta);
+    margin-inline: 30px;
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+}
+
+#destaque .card button:hover{
+    opacity: 0.9;
+}
