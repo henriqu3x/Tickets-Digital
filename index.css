@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-primary: #0b1f3a;
+    --background-secondary: #e63946;
+    --destaque-cta: #ffc300;
+    --background-clean: #f8f9fa;
+    --text-color-primary: #212529;
+    --text-color-secondary: #6c757d;
+
+    --title-hero: 800 56px "Montserrat", sans-serif;
+    --title-section: 700 36px "Montserrat", sans-serif;
+    --font-subtitle: 500 22px "Inter", sans-serif;
+    --font-text: 400 16px "Inter", sans-serif;
+    --font-button: 600 18px "Inter", sans-serif;
+
+}
