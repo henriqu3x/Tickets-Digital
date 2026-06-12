@@ -1,0 +1,57 @@
+#estadios{
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#estadios h2 {
+    font: var(--title-section);
+    padding: 5px;
+    position: relative;
+}
+
+#estadios h2::after{
+    content: '';
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    width: 100px;
+    background-color: var(--background-secondary);
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+#estadios .cards{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#estadios .card{
+    height: 250px;
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid var(--text-color-secondary);
+}
+
+#estadios .card p{
+    font: var(--font-text);
+}
+
+#estadios .card .imagem-partida{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+#estadios .card p {
+    text-align: center;
+    margin-top: 10px;
+}
