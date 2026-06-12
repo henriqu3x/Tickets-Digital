@@ -1,0 +1,47 @@
+#ingressos{
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--background-primary);
+}
+
+#ingressos h2 {
+    font: var(--title-section);
+    padding: 5px;
+    position: relative;
+    color: var(--background-clean);
+}
+
+#ingressos h2::after{
+    content: '';
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    width: 100px;
+    background-color: var(--background-secondary);
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+#ingressos form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#ingressos form select {
+    padding: 10px 50px;
+}
+
+#ingressos form button {
+    padding: 10px 40px;
+    background-color: var(--destaque-cta);
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+}
+
+#ingressos form button:hover{
+    opacity: 0.8;
+}

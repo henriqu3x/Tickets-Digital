@@ -24,3 +24,7 @@ main{
     height: auto;
     background-color: var(--background-clean);
 }
+
+button{
+    caret-color: transparent;
+}

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/hero.css">
     <link rel="stylesheet" href="styles/destaque.css">
+    <link rel="stylesheet" href="styles/ingressos.css">
     <title>Tickets Digital</title>
 </head>
 
@@ -84,7 +85,7 @@
         <section id="destaque">
             <h2>PARTIDAS EM DESTAQUE</h2>
             <div class="cards">
-                <div class="card">
+                <article class="card">
                     <img class="imagem-partida" src="assets/braxesp.jfif" alt="">
                     <div class="card-partida">
                         <div class="box-time">
@@ -100,8 +101,8 @@
                     <p>30 JUNHO 2026 - 16:00</p>
                     <p>MetLife Stadium, Nova Jersey</p>
                     <button>COMPRAR</button>
-                </div>
-                <div class="card">
+                </article>
+                <article class="card">
                     <img class="imagem-partida" src="assets/braxesp.jfif" alt="">
                     <div class="card-partida">
                         <div class="box-time">
@@ -117,8 +118,8 @@
                     <p>30 JUNHO 2026 - 16:00</p>
                     <p>MetLife Stadium, Nova Jersey</p>
                     <button>COMPRAR</button>
-                </div>
-                <div class="card">
+                </article>
+                <article class="card">
                     <img class="imagem-partida" src="assets/braxesp.jfif" alt="">
                     <div class="card-partida">
                         <div class="box-time">
@@ -134,9 +135,48 @@
                     <p>30 JUNHO 2026 - 16:00</p>
                     <p>MetLife Stadium, Nova Jersey</p>
                     <button>COMPRAR</button>
-                </div>
+                </article>
 
             </div>
+        </section>
+
+        <section id="ingressos">
+            <h2>BUSCA DE INGRESSOS</h2>
+
+            <form>
+                <select aria-label="selecionar seleção" required name="selecao" id="selecao">
+                    <option value="" selected disabled>Seleção</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="alemanha">Alemanha</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="espanha">Espanha</option>
+                </select>
+
+                <select required aria-label="selecionar cidade" name="cidade" id="cidade">
+                    <option value="" selected disabled>Cidade</option>
+                    <option value="atlanta">Atlanta</option>
+                    <option value="boston">Boston</option>
+                    <option value="dallas">Dallas</option>
+                    <option value="miami">Miami</option>
+                </select>
+
+                <select aria-label="selecionar data" name="data" id="data">
+                    <option value="" selected disabled>Data</option>
+                    <option value="11062026">11/06/2026</option>
+                    <option value="12062026">12/06/2026</option>
+                    <option value="13062026">13/06/2026</option>
+                    <option value="14062026">14/06/2026</option>
+                </select>
+
+                <select aria-label="selecionar categoria" name="categoria" id="categoria" required>
+                    <option value="" selected disabled>Categoria</option>
+                    <option value="economico">Econômico</option>
+                    <option value="premium">Premium</option>
+                    <option value="vip-experience">Vip Experience</option>
+                </select>
+
+                <button value="Buscar" aria-label="Buscar ingressos">Buscar</button>
+            </form>
         </section>
     </main>
 </body>
