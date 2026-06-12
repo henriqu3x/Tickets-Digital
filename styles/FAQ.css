@@ -32,7 +32,7 @@
 
 #FAQ .pergunta{
     width: 100%;
-    background-color: var(--text-color-secondary);
+    background-color: var(--background-primary);
     display: flex;
     align-items: center;
     justify-content: space-between;
