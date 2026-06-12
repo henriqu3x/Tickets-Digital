@@ -1,0 +1,153 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 10px 20px;
+    background-color: var(--background-primary);
+    color: var();
+    text-align: center;
+    border-top: 2px solid var(--text-color-secondary);
+}
+
+footer p{
+    font: var(--font-text);
+    color: var(--background-clean);
+}
+
+footer .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .info .logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--background-clean);
+}
+
+footer .info .logo img{
+    height: 70px;
+}
+
+footer .info .logo .box-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+footer .info .logo .box-text h2 {
+    font: var(--font-subtitle);
+}
+
+footer .info .logo .box-text p {
+    font: var(--font-text);
+}
+
+footer .info .sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: start;
+    color: var(--background-clean);
+    font: var(--font-text);
+}
+
+footer .info .sobre ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+footer .info .sobre ul li a{
+    text-decoration: none;
+    color: var(--background-clean);
+    transition: 0.2s all ease-in-out;
+}
+
+footer .info .sobre ul li a:hover{
+    opacity: 0.8;
+}
+
+
+footer .info .ajuda{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: start;
+    color: var(--background-clean);
+    font: var(--font-text);
+}
+
+footer .info .ajuda ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+footer .info .ajuda ul li a{
+    text-decoration: none;
+    color: var(--background-clean);
+    transition: 0.2s all ease-in-out;
+}
+
+footer .info .ajuda ul li a:hover{
+    opacity: 0.8;
+}
+
+
+footer .info .contato{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: start;
+    color: var(--background-clean);
+    font: var(--font-text);
+}
+
+footer .info .contato ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+footer .info .contato ul li a{
+    text-decoration: none;
+    color: var(--background-clean);
+    transition: 0.2s all ease-in-out;
+}
+
+footer .info .contato ul li a:hover{
+    opacity: 0.8;
+}
+
+
+footer .info .siga-nos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--background-clean);
+    font: var(--font-text);
+}
+
+footer .info .siga-nos .box-social {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+footer .info .siga-nos .box-social a{
+    color: var(--background-clean);
+    padding: 5px;
+    border: 2px solid var(--background-clean);
+    border-radius: 50%;
+    transition: 0.2s all ease-in-out;
+}
+
+footer .info .siga-nos .box-social a:hover{
+    opacity: 0.8;
+}
