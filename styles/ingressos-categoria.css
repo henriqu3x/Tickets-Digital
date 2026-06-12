@@ -1,0 +1,101 @@
+#ingressos-categoria{
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#ingressos-categoria h2 {
+    font: var(--title-section);
+    padding: 5px;
+    position: relative;
+}
+
+#ingressos-categoria h2::after{
+    content: '';
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    width: 100px;
+    background-color: var(--background-secondary);
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+#ingressos-categoria .cards{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#ingressos-categoria .card{
+    height: 270px;
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid var(--text-color-secondary);
+    align-items: center;
+    position: relative;
+}
+
+#ingressos-categoria .card .category{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#ingressos-categoria .card .category::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0px;
+    height: 2px;
+    width: 100%;
+    background-color: var(--background-secondary);
+}
+
+#ingressos-categoria .card .category img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#ingressos-categoria .card .category h2{
+    font: var(--font-subtitle);
+}
+
+#ingressos-categoria .card .category h2::after{
+    content: '';
+    height: 0;
+}
+
+#ingressos-categoria .card ul li {
+    font: var(--font-text);
+}
+
+#ingressos-categoria .card h3{
+    font: var(--font-text);
+}
+
+#ingressos-categoria .card button{
+    padding: 10px 15px;
+    width: 50%;
+    background-color: var(--destaque-cta);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    position: absolute;
+    bottom: 10px;
+}
+
+#ingressos-categoria .card button:hover{
+    opacity: 0.8;
+}
